@@ -1,5 +1,7 @@
 # Rock-Paper-Scissors
-
+<p>
+<img src="https://img.shields.io/npms-io/quality-score/ffa">
+</p>
 
 ## Use Rock-Paper-Scissors
 ### Call rps() function with params:
