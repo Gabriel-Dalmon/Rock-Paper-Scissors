@@ -1,7 +1,7 @@
 #DÉBUT
 #           
 #admettre que l'exécution de la fonction [choice] retourne un élément aléatoire d'une liste donnée en paramètre
-#admettre que l'exécution de la fonction [input] retourne une donnée de type (string) au joueur existe
+#admettre que l'exécution de la fonction [input] retourne une donnée de type (string) entrée par le joueur existe
 #               
 #définir [convertirChoix] avec pour paramètre (choix, choixPossibles) #commentaire : convertit l'input du joueur en un index pour le manipuler plus facilement
 #   pour tous les (index) entre 0 et la longueur de la liste (choixPossibles)
@@ -38,7 +38,8 @@
 #                alors si la valeur à la clé (nom) du joueur actif est égal à "CPU"
 #                    alors assigner à la valeur de (joueurInput) la valeur retournée par l'exécution de la fonction [choice] en donnant en paramètre (choixPossible)
 #                sinon 
-#                    alors assigner à la valeur de (joueurInput) la valeur retournée par l'exécution de la fonction [input]
+#                    alors écrire message "Choisissez ce que vous jouez parmi (choixPossibles)" #commentaire : on admet que le langage écrit les composants d'une liste si l'on lui demande d'écrire la liste
+#                    assigner à la valeur de (joueurInput) la valeur retournée par l'exécution de la fonction [input]
 #            assigner à la valeur de la clé (dernierChoix) de l'élément actif le retour de l'exécution de la fonction [convertirChoix] avec comme paramètre (joueurInput) et la liste (choixPossibles)
 #            
 #        #commentaire : lorsque les deux joueurs fait leur choix et que ces choix ont été converti en index de la liste des choix possible 
