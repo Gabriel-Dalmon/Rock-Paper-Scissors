@@ -1,4 +1,8 @@
 # Rock-Paper-Scissors
+## Rock-Paper-Scissors FLARP
+
+Pseudo-code of a rockpaperscissors function that asks for player's pick and answers who wins the round until a player wins the game.
+
 <p>
 <img src="https://img.shields.io/npms-io/quality-score/ffa">
 </p>
@@ -11,4 +15,3 @@
 \
 \
 *Note: a player with name = "CPU" is automatically detected as a CPU Player that will make random picks against the other player. Both players can be named "CPU".*
-## Rock-Paper-Scissors FLARP
