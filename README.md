@@ -1,9 +1,8 @@
 # Rock-Paper-Scissors
 ## Rock-Paper-Scissors FLARP
 
-Pseudo-code of a rockpaperscissors function that asks for player's pick and answers who wins the round until a player wins the game.
-
 <p>
+Pseudo-code of a rockpaperscissors function that asks for player's pick and answers who wins the round until a player wins the game.
 <img src="https://img.shields.io/npms-io/quality-score/ffa">
 </p>
 
