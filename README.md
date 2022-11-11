@@ -11,3 +11,4 @@
 \
 \
 *Note: a player with name = "CPU" is automatically detected as a CPU Player that will make random picks against the other player. Both players can be named "CPU".*
+## Rock-Paper-Scissors FLARP
