@@ -24,7 +24,7 @@
 #           
 #définir la fonction [pfc] recevant en paramètres (nbVictoire) décrivant le score à atteindre pour un joueur pour gagner la partie, (nomJoueur1), (nomJoueur2)
 #                   
-#    initialiser la liste (choixPossibles) définissant les trois valeurs attendues du retour d'un joueur, soit une liste composée de "PIERRE", "FEUILLE" et "CISEAUX"
+#    initialiser la liste (choixPossibles) définissant les trois valeurs attendues du retour d'un joueur, soit une liste à laquelle on assigne "PIERRE", "FEUILLE" et "CISEAUX" #commentaire : il est juste important qu'un item soit plus fort que l'item à sa gauche. ex: FEUILLE > PIERRE donc FEUILLE à droite de PIERRE. Par défaut, l'item à la fin de la liste est battu par le premier de la liste.
 #               
 #    initialiser le tableau (Joueurs) qui est composé de deux dictionnaires ayant pour clés (nom), (score) et (dernierChoix). 
 #    assigner (nomJoueur1) comme valeur à la clé (nom) du premier élément de (Joueurs)
