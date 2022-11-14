@@ -37,7 +37,7 @@ class Game:
         print("The game winner is " + self.players[self.winnerId].name)
 
 if (__name__ == "__main__"):
-    from Player import *
-    from Computer import *
+    from app.Player import *
+    from app.Computer import *
     game = Game(Player("Player1"), Computer())
     game.game()

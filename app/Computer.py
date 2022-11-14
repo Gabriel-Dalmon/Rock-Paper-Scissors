@@ -1,5 +1,5 @@
 from random import randint
-from Player import *
+from app.Player import *
 
 class Computer(Player):
     def __init__(self,name="CPU"):
